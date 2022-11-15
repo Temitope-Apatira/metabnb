@@ -18,9 +18,9 @@ export const Footer = () => {
         color="#ffffff"
         justify={{ base: "left", lg: "space-around" }}
         pt="63px"
-        px={{ base: "20px", lg: "0px" }}
+        px={{ base: "25px", lg: "0px" }}
         fontSize="14px"
-        rowGap="10px"
+        rowGap="20px"
       >
         <Flex direction="column" maxW="250px">
           <Image src={footerlogo} mb="96px" w="233px" h="40px" />
@@ -58,6 +58,7 @@ export const Footer = () => {
         px={{ base: "20px", lg: "100px" }}
         color="#ffffff"
         mt={{ base: "20px", lg: "0px" }}
+        pb="20px"
       >
         &copy; 2022 Metabnb
       </Text>
