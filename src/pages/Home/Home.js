@@ -50,7 +50,7 @@ export const Home = () => {
             <Input
               background="rgba(247, 247, 247, 0.1)"
               border="1px solid #a3a3a3"
-              borderRadius="8px 0px 8px 0px"
+              borderRadius="8px 0px 0px 8px"
               maxW="390px"
               h="54px"
               placeholder="Search for location"

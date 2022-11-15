@@ -48,7 +48,7 @@ export const Navbar = ({ text }) => {
             <Text>Community</Text>
           </Flex>
 
-          <Button mt={-4} variant="primary" text="Connect wallet" />
+          <Button variant="primary" text="Connect wallet" />
         </div>
       </Show>
       <Show breakpoint="(max-width: 768px)">
