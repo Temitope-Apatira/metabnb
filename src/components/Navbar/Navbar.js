@@ -88,7 +88,7 @@ export const Navbar = ({ text }) => {
                   rowGap="28px"
                   fontWeight="400"
                   fontSize="20px"
-                  lineHeight="25px"
+                  lineHeight="26px"
                   color=" #ffffff"
                 >
                   <Link to="/">
