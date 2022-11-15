@@ -1,6 +1,0 @@
-{
-  "routes": [
-    {"src": "/", "dest": "/"}
-    {"src": "/pace-to-stay", "dest": "/place-to-stay"}
-  ]
-}
