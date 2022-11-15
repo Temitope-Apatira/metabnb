@@ -41,6 +41,7 @@ export const Home = () => {
             lineHeight="35px"
             color="#434343"
             maxW="636px"
+            textAlign={{ base: "center", lg: "left" }}
           >
             we provide you access to luxury and affordable houses in the
             metaverse, get a chance to turn your imagination to reality at your
@@ -52,7 +53,7 @@ export const Home = () => {
               border="1px solid #a3a3a3"
               borderRadius="8px 0px 0px 8px"
               maxW="390px"
-              h="54px"
+              h={{ base: "40px", lg: "54px" }}
               placeholder="Search for location"
               fontSize="14px"
               color="#b8b8b8"
@@ -147,6 +148,7 @@ export const Home = () => {
             color="#ffffff"
             fontWeight="700"
             maxW="415px"
+            textAlign={{ base: "center", lg: "left" }}
           >
             Metabnb NFTs
           </Text>
@@ -155,12 +157,13 @@ export const Home = () => {
             lineHeight="35px"
             color="#ffffff"
             maxW="415px"
+            textAlign={{ base: "center", lg: "left" }}
           >
             Discover our NFT gift cards collection. Loyal customers gets amazing
             gift cards which are traded as NFTs. These NFTs gives our cutomer
             access to loads of our exclusive services.
           </Text>
-          <Flex>
+          <Flex justify={{ base: "center", lg: "left" }}>
             <Button
               variant="primary"
               text="Search"

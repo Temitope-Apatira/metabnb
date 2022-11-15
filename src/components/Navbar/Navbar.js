@@ -57,7 +57,7 @@ export const Navbar = ({ text }) => {
             <img
               alt=""
               src={logo}
-              className="h-auto w-auto cursor-pointer logo"
+              className=" cursor-pointer logo" 
             />
           </Link>
           <HiOutlineBars3BottomRight

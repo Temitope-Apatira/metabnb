@@ -46,12 +46,12 @@ export const Button = ({ text, variant, children, ...rest }) => {
           <motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
             <ChakraButton
               {...sharedProps}
-              w="170px"
+              w={{ base: "100px", lg: "170px" }}
               fontSize="16px"
               fontWeight="600"
               borderRadius="10px"
               lineHeight="20px"
-              h="48px"
+              h={{ base: "38px", lg: "48px" }}
               mt={0}
               onClick={onOpen}
               background=" linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%)"

@@ -13,6 +13,7 @@
     font-weight: 400;
     font-family: redrose;
     margin-top: 30px;
+    text-align: center;
   }
 }
 @media screen and (min-width: 679px) {
@@ -23,5 +24,6 @@
     font-weight: 400;
     letter-spacing: -0.02em;
     font-family: redrose;
+    text-align: left;
   }
 }
