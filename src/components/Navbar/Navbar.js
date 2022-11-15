@@ -25,7 +25,7 @@ export const Navbar = ({ text }) => {
   return (
     <div className="navbar">
       <Show breakpoint="(min-width: 769px)">
-        <div className="navbar_item">
+        <div className="navbar_item" px={{ base: "20px", lg: "100px" }}>
           <Link to="/">
             <img
               alt=""
@@ -61,7 +61,7 @@ export const Navbar = ({ text }) => {
             />
           </Link>
           <HiOutlineBars3BottomRight
-            color="#ffffff"
+            color=" #A02279 "
             size={35}
             ref={btnRef}
             onClick={onOpen}
@@ -75,10 +75,32 @@ export const Navbar = ({ text }) => {
             bg="#1d1d5a"
           >
             <DrawerOverlay />
-            <DrawerContent background="#060623">
+            <DrawerContent background=" #A02279 ">
               <DrawerCloseButton color="#ffffff" size={35} />
 
-              <DrawerBody className="menuSm"></DrawerBody>
+              <DrawerBody className="menuSm">
+                {" "}
+                <Flex
+                  direction="column"
+                  rowGap="28px"
+                  fontWeight="400"
+                  fontSize="20px"
+                  lineHeight="25px"
+                  color=" #ffffff"
+                >
+                  <Text>Home</Text>
+                  <Text>Place to stay</Text>
+                  <Text>NFTs</Text>
+                  <Text>Community</Text>
+                  <Button
+                    mt={4}
+                    variant="primary"
+                    text="Connect wallet"
+                    color="#a02279"
+                    background="#ffffff"
+                  />
+                </Flex>
+              </DrawerBody>
             </DrawerContent>
           </Drawer>
         </div>

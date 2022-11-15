@@ -1,13 +1,15 @@
-import { Center } from "@chakra-ui/react";
 import React from "react";
+import { Box } from "@chakra-ui/react";
 import { Footer } from "./components/Footer/Footer";
 import { Navbar } from "./components/Navbar/Navbar";
+import { Home } from "./pages/Home/Home";
 function App() {
   return (
-    <Center>
+    <Box>
       <Navbar />
+      <Home />
       <Footer />
-    </Center>
+    </Box>
   );
 }
 
