@@ -54,11 +54,7 @@ export const Navbar = ({ text }) => {
       <Show breakpoint="(max-width: 768px)">
         <div className="navbar_item">
           <Link to="/">
-            <img
-              alt=""
-              src={logo}
-              className=" cursor-pointer logo" 
-            />
+            <img alt="" src={logo} className=" cursor-pointer logo" />
           </Link>
           <HiOutlineBars3BottomRight
             color=" #A02279 "

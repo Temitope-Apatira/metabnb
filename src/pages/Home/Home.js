@@ -59,7 +59,7 @@ export const Home = () => {
               color="#b8b8b8"
             />{" "}
             <Button
-              variant="primary"
+              variant="secondary"
               text="Search"
               borderRadius="0px 8px 8px 0px"
             />
@@ -165,7 +165,7 @@ export const Home = () => {
           </Text>
           <Flex justify={{ base: "center", lg: "left" }}>
             <Button
-              variant="primary"
+              variant="secondary"
               text="Search"
               color="#a02279"
               background="#ffffff"

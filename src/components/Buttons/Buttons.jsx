@@ -46,7 +46,7 @@ export const Button = ({ text, variant, children, ...rest }) => {
           <motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
             <ChakraButton
               {...sharedProps}
-              w={{ base: "100px", lg: "170px" }}
+              w={{ base: "150px", lg: "170px" }}
               fontSize="16px"
               fontWeight="600"
               borderRadius="10px"
@@ -133,26 +133,24 @@ export const Button = ({ text, variant, children, ...rest }) => {
       return (
         <ChakraButton
           {...sharedProps}
-          w={{ base: "111px", lg: "212px" }}
-          fontSize={{ base: "14px", lg: "20px" }}
-          fontWeight={{ base: "600", lg: "700" }}
-          borderRadius="12px"
-          h={{ base: "32px", lg: "66px" }}
+          w={{ base: "100px", lg: "170px" }}
+          fontSize="16px"
+          fontWeight="600"
+          borderRadius="10px"
+          lineHeight="20px"
+          h={{ base: "38px", lg: "48px" }}
           mt={0}
-          padding="16px 0px"
-          background="transparent"
-          color="rgba(255, 255, 255, 0.5)"
-          fontFamily={{ base: "proximanova", lg: "syne_bold" }}
+          onClick={onOpen}
+          background=" linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%)"
+          color="#ffffff"
+          fontFamily="redrose"
           letterSpacing="0.7px"
-          border="1px solid #ffffff"
           _hover={{
-            shadow: "md",
-            border: secondaryHoverBorder,
+            shadow: "lg",
           }}
+          {...rest}
         >
-          <motion.button whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
-            {text ? text : children}
-          </motion.button>
+          {text ? text : children}
         </ChakraButton>
       );
 
