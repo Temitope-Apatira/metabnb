@@ -41,10 +41,15 @@ export const Navbar = ({ text }) => {
             fontSize="20px"
             lineHeight="25px"
             color=" #434343"
+            mt="10px"
           >
-            <Text>Home</Text>
-            <Text>Place to stay</Text>
-            <Text>NFTs</Text>
+            <Link to="/">
+              <Text>Home</Text>
+            </Link>
+            <Link to="/place-to-stay">
+              <Text>Place to stay</Text>
+            </Link>
+            <a href="#nft"><Text>NFTs</Text></a>
             <Text>Community</Text>
           </Flex>
 

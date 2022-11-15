@@ -6,6 +6,7 @@ import section3 from "../../assets/images/section3.png";
 import opensea from "../../assets/images/opensea.svg";
 import fox from "../../assets/images/fox.svg";
 import mbtoken from "../../assets/images/mbtoken.svg";
+import { Houses } from "../../components/Houses/Houses";
 
 import "./Home.css";
 export const Home = () => {
@@ -100,24 +101,29 @@ export const Home = () => {
       </Flex>
       <Flex
         direction="column"
-        justify={{ base: "center", lg: "space-between" }}
+        justify="center"
         flexWrap="wrap"
         px={{ base: "20px", lg: "100px" }}
         background="#ffffff"
         minH="963px"
         h="fit-content"
-        align="center"
+        align="flex-start"
       >
         <Text
           maxW="817px"
           color="#000000"
-          fontSize="48px"
+          fontSize={{ base: "28px", lg: "48px" }}
+          fontFamily="redrose"
           lineHeight="60px"
           fontWeight="700"
           mt={{ base: "38px", lg: "58px" }}
+          textAlign="center"
+          pb={{ base: "24px", lg: "43px" }}
+          alignSelf="center"
         >
           Inspiration for your next adventure
         </Text>
+        <Houses />
       </Flex>
       <Flex
         direction="row"
@@ -128,6 +134,7 @@ export const Home = () => {
         minH="774px"
         h="fit-content"
         align="center"
+        id="nft"
       >
         <Show breakpoint="(max-width:768px)">
           <Flex>
